@@ -1,0 +1,37 @@
+body,
+html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: black;
+  font-family: "Signika", sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+svg {
+  width: 40vh;
+  height: 40vh;
+}
+
+h2 {
+  color: #58dadf;
+}
+
+.wrapper {
+  background: rgba(256, 256, 256, 0.1);
+  box-shadow: 4px 4px 7px -1px rgba(256, 256, 256, 0.1);
+  -webkit-box-shadow: 4px 4px 7px -1px rgba(256, 256, 256, 0.1);
+  -moz-box-shadow: 4px 4px 7px -1px rgba(256, 256, 256, 0.1);
+  border-radius: 5px;
+}
